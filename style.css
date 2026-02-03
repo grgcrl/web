@@ -88,19 +88,19 @@ html, body {
 
   .name {
     font-size: 12.3px;
-    letter-spacing: 2.6px !important;
+    letter-spacing: 3px !important;
   }
 
   .details {
     font-size: 12.4px;
-    letter-spacing: 2.6px !important;
+    letter-spacing: 3px !important;
   }
 
   .cv {
     font-size: 12.4px;
     line-height: 1.4;
     text-align: justify;
-    letter-spacing: 2.6px !important;
+    letter-spacing: 3px !important;
     max-width: none;
     width: 100%;
     margin: 0;
