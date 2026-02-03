@@ -87,20 +87,20 @@ html, body {
   }
 
   .name {
-    font-size: 12px;
-    letter-spacing: 2.3px !important;
+    font-size: 12.3px;
+    letter-spacing: 2.4px !important;
   }
 
   .details {
-    font-size: 12.1px;
-    letter-spacing: 2.3px !important;
+    font-size: 12.4px;
+    letter-spacing: 2.4px !important;
   }
 
   .cv {
-    font-size: 12.1px;
+    font-size: 12.4px;
     line-height: 1.4;
     text-align: justify;
-    letter-spacing: 2.3px !important;
+    letter-spacing: 2.4px !important;
     max-width: none;
     width: 100%;
     margin: 0;
