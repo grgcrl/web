@@ -31,23 +31,23 @@ html, body {
 
 /* DESKTOP */
 .name {
-  font-size: 9.9px;
-  letter-spacing: 2.8px;
+  font-size: 9.5px;
+  letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .details {
-  font-size: 10px;
-  letter-spacing: 2.8px;
+  font-size: 9.6px;
+  letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .cv {
-  font-size: 10px;
-  letter-spacing: 2.8px;
+  font-size: 9.6px;
+  letter-spacing: 3px;
   line-height: 1.4;
   text-align: justify;
-  max-width: 880px;
+  max-width: 840px;
 }
 
 /* ------------------ MOBILE PORTRAIT ------------------ */
@@ -60,17 +60,17 @@ html, body {
 
   .name {
     font-size: 6.4px;
-    letter-spacing: 2px !important;
+    letter-spacing: 1.8px !important;
   }
 
   .details {
     font-size: 6.5px;
-    letter-spacing: 2px !important;
+    letter-spacing: 1.8px !important;
   }
 
   .cv {
     font-size: 6.5px;
-    letter-spacing: 2px !important;
+    letter-spacing: 1.8px !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
@@ -87,20 +87,20 @@ html, body {
   }
 
   .name {
-    font-size: 9.9px;
-    letter-spacing: 4px !important;
+    font-size: 9.5px;
+    letter-spacing: 3px !important;
   }
 
   .details {
-    font-size: 10px;
-    letter-spacing: 4px !important;
+    font-size: 9.6px;
+    letter-spacing: 3px !important;
   }
 
   .cv {
-    font-size: 10px;
+    font-size: 9.6px;
     line-height: 1.4;
     text-align: justify;
-    letter-spacing: 4px !important;
+    letter-spacing: 3px !important;
     max-width: none;       /* rimuove limiti desktop */
     width: 100%;           /* usa tutta la larghezza della container */
     margin: 0;             /* allineato con nome/email */
