@@ -47,7 +47,7 @@ html, body {
   letter-spacing: 3px;
   line-height: 1.4;
   text-align: justify;
-  max-width: 840px;
+  max-width: 835px;
 }
 
 /* ------------------ MOBILE PORTRAIT ------------------ */
@@ -88,19 +88,19 @@ html, body {
 
   .name {
     font-size: 9.5px;
-    letter-spacing: 3px !important;
+    letter-spacing: 2.8px !important;
   }
 
   .details {
     font-size: 9.6px;
-    letter-spacing: 3px !important;
+    letter-spacing: 2.8px !important;
   }
 
   .cv {
     font-size: 9.6px;
     line-height: 1.4;
     text-align: justify;
-    letter-spacing: 3px !important;
+    letter-spacing: 2.8px !important;
     max-width: none;       /* rimuove limiti desktop */
     width: 100%;           /* usa tutta la larghezza della container */
     margin: 0;             /* allineato con nome/email */
