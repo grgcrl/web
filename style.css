@@ -31,19 +31,19 @@ html, body {
 
 /* DESKTOP */
 .name {
-  font-size: 9.6px;
+  font-size: 9.5px;
   letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .details {
-  font-size: 9.8px;
+  font-size: 9.6px;
   letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .cv {
-  font-size: 9.8px;
+  font-size: 9.6px;
   letter-spacing: 3px;
   line-height: 1.4;
   text-align: justify;
@@ -87,17 +87,17 @@ html, body {
   }
 
   .name {
-    font-size: 9.5px;
+    font-size: 9.9px;
     letter-spacing: 2.6px !important;
   }
 
   .details {
-    font-size: 9.6px;
+    font-size: 10px;
     letter-spacing: 2.6px !important;
   }
 
   .cv {
-    font-size: 9.6px;
+    font-size: 10px;
     line-height: 1.4;
     text-align: justify;
     letter-spacing: 2.6px !important;
