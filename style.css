@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'OPTIAmericanGothic-Bold';
+  src: url('OPTIAmericanGothic-Bold.otf') format('opentype');
+}
+
+/* ------------------ BASE ------------------ */
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  background: white;
+  color: black;
+  font-family: "OPTIAmericanGothic-Bold", sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  overflow-x: visible; /* 🔥 IMPORTANTISSIMO */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0;
+  padding: 40px;
+}
+
+/* DESKTOP */
+.name {
+  font-size: 9.9px;
+  letter-spacing: 1.6px;
+  margin-bottom: 1.6em;
+}
+
+.details {
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  margin-bottom: 1.6em;
+}
+
+.cv {
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  line-height: 1.4;
+  max-width: 760px;
+}
+
+/* ------------------ MOBILE PORTRAIT ------------------ */
+@media (max-width: 767px) and (orientation: portrait) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+  }
+
+  .name {
+    font-size: 6.4px;
+  }
+
+  .details {
+    font-size: 6.5px;
+  }
+
+  .cv {
+    font-size: 6.5px;
+    line-height: 1.4;
+    text-align: justify;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* ------------------ MOBILE LANDSCAPE ------------------ */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px 16px 0 16px !important;
+  }
+
+  .name {
+    font-size: 15.9px;
+    letter-spacing: 1.6px !important;
+  }
+
+  .details {
+    font-size: 16px;
+    letter-spacing: 1.6px !important;
+  }
+
+  .cv {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    letter-spacing: 1.6px !important;
+    max-width: none;       /* rimuove limiti desktop */
+    width: 100%;           /* usa tutta la larghezza della container */
+    margin: 0;             /* allineato con nome/email */
+  }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  body {
+    background: white !important;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  body {
+    background: white !important;
+  }
+}
