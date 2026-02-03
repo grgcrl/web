@@ -31,19 +31,19 @@ html, body {
 
 /* DESKTOP */
 .name {
-  font-size: 9.5px;
+  font-size: 9.6px;
   letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .details {
-  font-size: 9.6px;
+  font-size: 9.8px;
   letter-spacing: 3px;
   margin-bottom: 1.6em;
 }
 
 .cv {
-  font-size: 9.6px;
+  font-size: 9.8px;
   letter-spacing: 3px;
   line-height: 1.4;
   text-align: justify;
@@ -51,7 +51,7 @@ html, body {
 }
 
 /* ------------------ MOBILE PORTRAIT ------------------ */
-@media (max-width: 767px) and (orientation: portrait) {
+@media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -79,7 +79,7 @@ html, body {
 }
 
 /* ------------------ MOBILE LANDSCAPE ------------------ */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (hover: none) and (pointer: coarse) and (orientation: landscape) {
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -88,32 +88,32 @@ html, body {
 
   .name {
     font-size: 9.5px;
-    letter-spacing: 2.8px !important;
+    letter-spacing: 2.6px !important;
   }
 
   .details {
     font-size: 9.6px;
-    letter-spacing: 2.8px !important;
+    letter-spacing: 2.6px !important;
   }
 
   .cv {
     font-size: 9.6px;
     line-height: 1.4;
     text-align: justify;
-    letter-spacing: 2.8px !important;
-    max-width: none;       /* rimuove limiti desktop */
-    width: 100%;           /* usa tutta la larghezza della container */
-    margin: 0;             /* allineato con nome/email */
+    letter-spacing: 2.6px !important;
+    max-width: none;
+    width: 100%;
+    margin: 0;
   }
 }
 
-@media (max-width: 767px) and (orientation: portrait) {
+@media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   body {
     background: white !important;
   }
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (hover: none) and (pointer: coarse) and (orientation: landscape) {
   body {
     background: white !important;
   }
