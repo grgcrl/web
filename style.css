@@ -60,17 +60,17 @@ html, body {
 
   .name {
     font-size: 6.4px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.31em !important;
   }
 
   .details {
     font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.31em !important;
   }
 
   .cv {
     font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.31em !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
@@ -87,17 +87,17 @@ html, body {
   }
 
   .name {
-    font-size: 11.9px;
+    font-size: 10.9px;
     letter-spacing: 3px !important;
   }
 
   .details {
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 3px !important;
   }
 
   .cv {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.4;
     text-align: justify;
     letter-spacing: 3px !important;
