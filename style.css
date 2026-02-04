@@ -50,13 +50,15 @@ html, body {
   max-width: 780px;
 }
 
-/* first sentence — default behavior */
-.cv-first {
+/* first and second spans — default behavior (desktop) */
+.cv-first,
+.cv-second {
   display: inline;
 }
 
 /* ------------------ MOBILE PORTRAIT ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
+
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -82,16 +84,22 @@ html, body {
     max-width: none;
   }
 
-  /* force justified first line block */
+  /* first sentence: justified */
   .cv-first {
     display: block;
     text-align: justify;
-    text-align-last: justify;
+  }
+
+  /* second sentence: new line, left aligned */
+  .cv-second {
+    display: block;
+    text-align: left;
   }
 }
 
 /* ------------------ MOBILE LANDSCAPE ------------------ */
 @media (hover: none) and (pointer: coarse) and (orientation: landscape) {
+
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -122,7 +130,7 @@ html, body {
 /* ------------------ DEBUG BACKGROUNDS ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   body {
-    background: pink !important;
+    background: red !important;
   }
 }
 
