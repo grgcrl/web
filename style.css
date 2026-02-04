@@ -60,17 +60,17 @@ html, body {
 
   .name {
     font-size: 6.5px;
-    letter-spacing: 0.302em !important;
+    letter-spacing: 0.3em !important;
   }
 
   .details {
     font-size: 6.6px;
-    letter-spacing: 0.302em !important;
+    letter-spacing: 0.3em !important;
   }
 
   .cv {
     font-size: 6.6px;
-    letter-spacing: 0.302em !important;
+    letter-spacing: 0.3em !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
@@ -109,7 +109,7 @@ html, body {
 
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   body {
-    background: pink !important;
+    background: blue !important;
   }
 }
 
