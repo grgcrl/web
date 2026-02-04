@@ -50,15 +50,13 @@ html, body {
   max-width: 780px;
 }
 
-/* first and second spans — default behavior (desktop) */
-.cv-first,
-.cv-second {
+/* first sentence — default behavior */
+.cv-first {
   display: inline;
 }
 
 /* ------------------ MOBILE PORTRAIT ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
-
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -66,40 +64,34 @@ html, body {
   }
 
   .name {
-    font-size: 6.4px;
-    letter-spacing: 0.3em !important;
+    font-size: 6.5px;
+    letter-spacing: 0.288em !important;
   }
 
   .details {
-    font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    font-size: 6.6px;
+    letter-spacing: 0.288em !important;
   }
 
   .cv {
-    font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    font-size: 6.6px;
+    letter-spacing: 0.288em !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
     max-width: none;
   }
 
-  /* first sentence: justified */
+  /* force justified first line block */
   .cv-first {
     display: block;
     text-align: justify;
-  }
-
-  /* second sentence: new line, left aligned */
-  .cv-second {
-    display: block;
-    text-align: left;
+    text-align-last: justify;
   }
 }
 
 /* ------------------ MOBILE LANDSCAPE ------------------ */
 @media (hover: none) and (pointer: coarse) and (orientation: landscape) {
-
   .container {
     max-width: 100%;
     margin: 0 auto;
@@ -130,7 +122,7 @@ html, body {
 /* ------------------ DEBUG BACKGROUNDS ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   body {
-    background: red !important;
+    background: white !important;
   }
 }
 
