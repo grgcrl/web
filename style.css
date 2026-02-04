@@ -29,7 +29,7 @@ html, body {
   padding: 24px;
 }
 
-/* DESKTOP */
+/* ------------------ TYPOGRAPHY ------------------ */
 .name {
   font-size: 9.5px;
   letter-spacing: 3px;
@@ -50,6 +50,11 @@ html, body {
   max-width: 780px;
 }
 
+/* first sentence — default behavior */
+.cv-first {
+  display: inline;
+}
+
 /* ------------------ MOBILE PORTRAIT ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   .container {
@@ -60,29 +65,28 @@ html, body {
 
   .name {
     font-size: 6.4px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.288em !important;
   }
 
   .details {
     font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.288em !important;
   }
 
   .cv {
     font-size: 6.5px;
-    letter-spacing: 0.3em !important;
+    letter-spacing: 0.288em !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
     max-width: none;
-
   }
 
-  /* activate line break after "Italy." */
-  .mobile-break {
+  /* force justified first line block */
+  .cv-first {
     display: block;
-    height: 0;
-
+    text-align: justify;
+    text-align-last: justify;
   }
 }
 
@@ -115,9 +119,10 @@ html, body {
   }
 }
 
+/* ------------------ DEBUG BACKGROUNDS ------------------ */
 @media (hover: none) and (pointer: coarse) and (max-width: 767px) and (orientation: portrait) {
   body {
-    background: red !important;
+    background: green !important;
   }
 }
 
