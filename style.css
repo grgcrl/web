@@ -65,17 +65,17 @@ html, body {
 
   .name {
     font-size: 6.5px;
-    letter-spacing: 0.28em !important;
+    letter-spacing: 0.27em !important;
   }
 
   .details {
     font-size: 6.6px;
-    letter-spacing: 0.28em !important;
+    letter-spacing: 0.27em !important;
   }
 
   .cv {
     font-size: 6.6px;
-    letter-spacing: 0.28em !important;
+    letter-spacing: 0.27em !important;
     line-height: 1.4;
     text-align: justify;
     width: 100%;
